@@ -40,7 +40,7 @@
          <Switch
              android:layout_height="wrap_content"
              android:layout_width="match_parent"
-             android:text="@string/setting_menu_switch_teame_text"
+             android:text="@string/setting_menu_switch_theme_text"
              android:textSize="@dimen/menu_setting_button_text_size"
              android:textAlignment="textStart"
              android:fontFamily="@font/ys"
@@ -91,7 +91,7 @@
              android:paddingEnd="12dp"
 
              android:paddingBottom="18dp"
-             android:text="@string/setting_menu_supprt_text"
+             android:text="@string/setting_menu_support_text"
              android:textAlignment="textStart"
              android:textAllCaps="false"
              android:textColor="@color/black"
