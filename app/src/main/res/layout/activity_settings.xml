@@ -1,28 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
  <LinearLayout
      android:layout_width="match_parent"
-     android:layout_height="match_parent">
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     tools:ignore="UselessParent">
      <Button
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:text="@string/title_settings_button"
-         android:textAllCaps="false">
-     </Button>
- </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginEnd="20dp">
+         android:fontFamily="@font/ys"
+         android:letterSpacing="0"
+         android:textSize="22sp"
+         android:textColor="@color/black"
+         android:textAllCaps="false"
+         android:backgroundTint="@color/white"
+         android:textAlignment="textStart"
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="1"
-            android:textAllCaps="false">
-        </Button>
-    </LinearLayout>
+
+         app:iconGravity="textStart"
+         app:iconPadding="15dp"
+         app:icon="@drawable/arrow_back"
+         app:iconTint="@color/black"
+         >
+     </Button>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+
+         android:orientation="vertical"
+         android:layout_marginTop="16dp">
+
+
+         <Switch
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:text="@string/setting_menu_switch_teame_text"
+             android:textSize="@dimen/menu_setting_button_text_size"
+             android:textAlignment="textStart"
+             android:fontFamily="@font/ys"
+
+             android:paddingTop="19dp"
+             android:paddingBottom="18dp"
+             android:paddingStart="16dp"
+             android:paddingEnd="12dp"
+             tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+         <Button
+
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:backgroundTint="@color/white"
+             android:fontFamily="@font/ys"
+             android:letterSpacing="0"
+             android:paddingStart="16dp"
+             android:paddingTop="19dp"
+             android:paddingEnd="12dp"
+
+             android:paddingBottom="18dp"
+             android:text="@string/setting_menu_share_app_text"
+             android:textAlignment="textStart"
+             android:textAllCaps="false"
+
+             android:textColor="@color/black"
+             android:textSize="@dimen/menu_setting_button_text_size"
+             app:icon="@drawable/share_app"
+
+             app:iconGravity="end"
+             app:iconSize="24dp"
+             app:iconTint="#AEAFB4"
+              >
+
+         </Button>
+
+         <Button
+
+
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:backgroundTint="@color/white"
+             android:fontFamily="@font/ys"
+             android:letterSpacing="0"
+             android:paddingStart="16dp"
+             android:paddingTop="19dp"
+             android:paddingEnd="12dp"
+
+             android:paddingBottom="18dp"
+             android:text="@string/setting_menu_supprt_text"
+             android:textAlignment="textStart"
+             android:textAllCaps="false"
+             android:textColor="@color/black"
+             android:textSize="@dimen/menu_setting_button_text_size"
+
+             app:icon="@drawable/support"
+             app:iconGravity="end"
+             app:iconSize="24dp"
+             app:iconTint="#AEAFB4"
+             >
+
+         </Button>
+
+         <Button
+             android:id="@+id/icon"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:backgroundTint="@color/white"
+             android:fontFamily="@font/ys"
+             android:letterSpacing="0"
+
+             android:paddingStart="16dp"
+             android:paddingTop="19dp"
+             android:paddingEnd="12dp"
+
+             android:paddingBottom="18dp"
+             android:text="@string/setting_menu_user_agree_text"
+             android:textAlignment="textStart"
+             android:textAllCaps="false"
+
+             android:textColor="@color/black"
+             android:textSize="@dimen/menu_setting_button_text_size"
+             app:icon="@drawable/user_agree"
+
+             app:iconGravity="end"
+             app:iconSize="24dp"
+             app:iconTint="#AEAFB4"
+             >
+
+         </Button>
+
+
+     </LinearLayout>
+ </LinearLayout>
+
 </FrameLayout>
 
