@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <dimen name="menu_setting_button_text_size">16sp</dimen>
+    <dimen name="menu_main_button_text_size">22sp</dimen>
+    <dimen name="menu_title_text_size">22sp</dimen>
+
+    <dimen name="menu_setting_button_icon_size">24dp</dimen>
 
 </resources>

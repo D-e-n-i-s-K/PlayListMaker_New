@@ -22,7 +22,7 @@
             android:textAlignment="textStart"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="22sp"
+            android:textSize="@dimen/menu_title_text_size"
 
 
             app:icon="@drawable/arrow_back"
@@ -73,10 +73,8 @@
                 app:icon="@drawable/share_app"
 
                 app:iconGravity="end"
-                app:iconSize="24dp"
-                app:iconTint="#AEAFB4">
-
-            </Button>
+                app:iconSize="@dimen/menu_setting_button_icon_size"
+                app:iconTint="@color/pl_yp_gray" />
 
             <Button
 
@@ -99,8 +97,8 @@
 
                 app:icon="@drawable/support"
                 app:iconGravity="end"
-                app:iconSize="24dp"
-                app:iconTint="#AEAFB4">
+                app:iconSize="@dimen/menu_setting_button_icon_size"
+                app:iconTint="@color/pl_yp_gray" >
 
             </Button>
 
@@ -126,8 +124,8 @@
                 app:icon="@drawable/user_agree"
 
                 app:iconGravity="end"
-                app:iconSize="24dp"
-                app:iconTint="#AEAFB4">
+                app:iconSize="@dimen/menu_setting_button_icon_size"
+                app:iconTint="@color/pl_yp_gray" >
 
             </Button>
 
