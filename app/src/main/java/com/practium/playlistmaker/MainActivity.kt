@@ -2,6 +2,7 @@ package com.practium.playlistmaker
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
@@ -44,18 +45,28 @@ class MainActivity : AppCompatActivity() {
             searchButton.setOnClickListener(searchOnClickListener)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
+
+    override fun onStart() {
+        super.onStart()
+    }
+
+    override fun onResume() {
+        super.onResume()
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Log.d("TAG", "Мы в методе onPause")
+    }
+
+    override fun onStop() {
+        super.onStop()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+    }
+
+
 }
