@@ -1,5 +1,6 @@
 package com.practium.playlistmaker
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -16,36 +17,28 @@ class MainActivity : AppCompatActivity() {
         val mediaButton = findViewById<Button>(R.id.media)
         val settingsButton = findViewById<Button>(R.id.settings)
 
-        val mediabuttonOnClickListener : View.OnClickListener = object : View.OnClickListener{
+        val mediabuttonOnClickListener: View.OnClickListener = object : View.OnClickListener {
             override fun onClick(v: View?) {
-                Toast.makeText(this@MainActivity, "Солнышко, привет!!!", Toast.LENGTH_SHORT).show()
+                val displayMedia = Intent(this@MainActivity, MediaActivity::class.java)
+                startActivity(displayMedia)
             }
         }
         mediaButton.setOnClickListener(mediabuttonOnClickListener)
 
         settingsButton.setOnClickListener {
-            Toast.makeText(this@MainActivity, "Нажата кнопка Настройки (метод )",Toast.LENGTH_SHORT).show()
+            val displayIntent = Intent(this, SettingsActivity::class.java)
+            startActivity(displayIntent)
         }
 
-
-
-
-
-
-
-
-
-            val searchOnClickListener: View.OnClickListener =
-                object : View.OnClickListener{
-                    override fun onClick(v: View?) {
-                       Toast.makeText(this@MainActivity,
-                       "Привет, Валентин Георгиевич", Toast.LENGTH_LONG).show()
-                    }
-                }
-            searchButton.setOnClickListener(searchOnClickListener)
-
+        searchButton.setOnClickListener {
+            val displaySearch = Intent(this, SearchActivity::class.java)
+            startActivity(displaySearch)
+        }
 
     }
+
+
+
 
     override fun onStart() {
         super.onStart()
