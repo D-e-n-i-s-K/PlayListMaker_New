@@ -45,9 +45,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/ys"
-                android:paddingStart="16dp"
-                android:paddingTop="19dp"
-                android:paddingEnd="12dp"
+                android:paddingStart="@dimen/menu_setting_button_paddingStart"
+                android:paddingTop="@dimen/menu_setting_button_paddingTop"
+                android:paddingEnd="@dimen/menu_setting_button_paddingEnd"
                 style="?android:attr/borderlessButtonStyle"
 
                 android:shadowColor="@color/white"
@@ -67,9 +67,9 @@
                 android:backgroundTint="@color/white"
                 android:fontFamily="@font/ys"
                 android:letterSpacing="0"
-                android:paddingStart="16dp"
-                android:paddingTop="19dp"
-                android:paddingEnd="12dp"
+                android:paddingStart="@dimen/menu_setting_button_paddingStart"
+                android:paddingTop="@dimen/menu_setting_button_paddingTop"
+                android:paddingEnd="@dimen/menu_setting_button_paddingEnd"
 
                 style="?android:attr/borderlessButtonStyle"
 
@@ -96,9 +96,9 @@
                 android:backgroundTint="@color/white"
                 android:fontFamily="@font/ys"
                 android:letterSpacing="0"
-                android:paddingStart="16dp"
-                android:paddingTop="19dp"
-                android:paddingEnd="12dp"
+                android:paddingStart="@dimen/menu_setting_button_paddingStart"
+                android:paddingTop="@dimen/menu_setting_button_paddingTop"
+                android:paddingEnd="@dimen/menu_setting_button_paddingEnd"
 
                 style="?android:attr/borderlessButtonStyle"
 
@@ -126,9 +126,9 @@
 
                 style="?android:attr/borderlessButtonStyle"
 
-                android:paddingStart="16dp"
-                android:paddingTop="19dp"
-                android:paddingEnd="12dp"
+                android:paddingStart="@dimen/menu_setting_button_paddingStart"
+                android:paddingTop="@dimen/menu_setting_button_paddingTop"
+                android:paddingEnd="@dimen/menu_setting_button_paddingEnd"
 
                 android:paddingBottom="18dp"
                 android:text="@string/setting_menu_user_agree_text"
