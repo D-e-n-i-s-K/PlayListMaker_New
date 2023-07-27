@@ -9,10 +9,6 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -20,8 +16,6 @@
             android:text="@string/app_name"
             android:textColor="@color/pl_yp_white"
             android:textSize="@dimen/menu_title_text_size" />
-
-    </FrameLayout>
 
 
     <LinearLayout
@@ -32,7 +26,7 @@
 
 
         <Button
-            android:id="@+id/search"
+            android:id="@+id/buttonSearch"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -43,14 +37,14 @@
             android:textColor="@color/pl_yp_black"
             android:textSize="@dimen/menu_main_button_text_size"
 
-            app:cornerRadius="16dp"
+            app:cornerRadius="@dimen/menu_activity_Button_cornerRadius"
             app:icon="@drawable/search"
             app:iconGravity="textStart"
-            app:iconPadding="16dp"
+            app:iconPadding="@dimen/menu_activity_iconPadding"
             app:iconTint="@color/pl_yp_black" />
 
         <Button
-            android:id="@+id/media"
+            android:id="@+id/buttonMedia"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginTop="16dp"
@@ -61,14 +55,14 @@
             android:textAllCaps="false"
             android:textColor="@color/pl_yp_black"
             android:textSize="@dimen/menu_main_button_text_size"
-            app:cornerRadius="16dp"
+            app:cornerRadius="@dimen/menu_activity_Button_cornerRadius"
             app:icon="@drawable/medialibrary"
             app:iconGravity="textStart"
-            app:iconPadding="16dp"
+            app:iconPadding="@dimen/menu_activity_iconPadding"
             app:iconTint="@color/pl_yp_black" />
 
         <Button
-            android:id="@+id/settings"
+            android:id="@+id/buttonSettings"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginTop="16dp"
@@ -79,10 +73,10 @@
             android:textAllCaps="false"
             android:textColor="@color/pl_yp_black"
             android:textSize="@dimen/menu_main_button_text_size"
-            app:cornerRadius="16dp"
+            app:cornerRadius="@dimen/menu_activity_Button_cornerRadius"
             app:icon="@drawable/settings"
             app:iconGravity="textStart"
-            app:iconPadding="16dp"
+            app:iconPadding="@dimen/menu_activity_iconPadding"
             app:iconTint="@color/pl_yp_black" />
 
     </LinearLayout>

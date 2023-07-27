@@ -11,10 +11,9 @@ class MediaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_media)
-        val backButton = findViewById<TextView>(R.id.back)
+        val backButton = findViewById<TextView>(R.id.buttonBack)
         backButton.setOnClickListener(){
-            val displayMainMenu = Intent(this, MainActivity::class.java)
-            startActivity(displayMainMenu)
+            finish()
         }
     }
 }

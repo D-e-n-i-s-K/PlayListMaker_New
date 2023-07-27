@@ -12,4 +12,10 @@
     <dimen name="menu_setting_button_paddingTop">19dp</dimen>
     <dimen name="menu_setting_button_paddingEnd">12dp</dimen>
 
+
+
+    <dimen name="menu_activity_iconPadding">16dp</dimen>
+    <dimen name="menu_activity_Button_cornerRadius">16dp</dimen>
+
+
 </resources>

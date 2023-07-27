@@ -1,13 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/white">
-
-    <LinearLayout
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -33,14 +26,6 @@
             app:iconPadding="15dp"
             app:iconTint="@color/black" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-
-            android:layout_marginTop="16dp"
-            android:orientation="vertical">
-
-
             <Switch
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -49,10 +34,6 @@
                 android:paddingTop="@dimen/menu_setting_button_paddingTop"
                 android:paddingEnd="@dimen/menu_setting_button_paddingEnd"
                 style="?android:attr/borderlessButtonStyle"
-
-                android:shadowColor="@color/white"
-                android:shadowDx="0"
-                android:shadowDy="0"
 
                 android:paddingBottom="18dp"
                 android:text="@string/setting_menu_switch_theme_text"
@@ -66,14 +47,12 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/white"
                 android:fontFamily="@font/ys"
-                android:letterSpacing="0"
+                android:letterSpacing="@integer/menu_setting_button_letterSpacing0"
                 android:paddingStart="@dimen/menu_setting_button_paddingStart"
                 android:paddingTop="@dimen/menu_setting_button_paddingTop"
                 android:paddingEnd="@dimen/menu_setting_button_paddingEnd"
 
                 style="?android:attr/borderlessButtonStyle"
-
-
 
                 android:paddingBottom="18dp"
                 android:text="@string/setting_menu_share_app_text"
@@ -95,7 +74,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/white"
                 android:fontFamily="@font/ys"
-                android:letterSpacing="0"
+                android:letterSpacing="@integer/menu_setting_button_letterSpacing0"
                 android:paddingStart="@dimen/menu_setting_button_paddingStart"
                 android:paddingTop="@dimen/menu_setting_button_paddingTop"
                 android:paddingEnd="@dimen/menu_setting_button_paddingEnd"
@@ -122,7 +101,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/white"
                 android:fontFamily="@font/ys"
-                android:letterSpacing="0"
+                android:letterSpacing="@integer/menu_setting_button_letterSpacing0"
 
                 style="?android:attr/borderlessButtonStyle"
 
@@ -146,9 +125,7 @@
 
             </Button>
 
-
-        </LinearLayout>
     </LinearLayout>
 
-</FrameLayout>
+
 
