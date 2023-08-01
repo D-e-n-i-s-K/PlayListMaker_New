@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="mainActivityButton">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:backgroundTint">@color/pl_yp_white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/pl_yp_black</item>
+        <item name="android:textSize">@dimen/menu_main_button_text_size</item>
+
+        <item name="cornerRadius">@dimen/menu_activity_Button_cornerRadius</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">@dimen/menu_activity_iconPadding</item>
+        <item name="iconTint">@color/pl_yp_black</item>
+
+
+    </style>
+</resources>
+
+<!--    android:id="@+id/buttonSearch"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--         android:backgroundTint="@color/pl_yp_white"-->
+<!--        android:gravity="center"-->
+<!--    android:text="@string/title_search_button"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/pl_yp_black"-->
+<!--        android:textSize="@dimen/menu_main_button_text_size"-->
+<!--        app:cornerRadius="@dimen/menu_activity_Button_cornerRadius"-->
+<!--    app:icon="@drawable/search"-->
+<!--        app:iconGravity="textStart"-->
+<!--        app:iconPadding="@dimen/menu_activity_iconPadding"-->
+<!--        app:iconTint="@color/pl_yp_black"-->

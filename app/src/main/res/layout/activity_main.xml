@@ -25,23 +25,10 @@
         android:orientation="vertical">
 
 
-        <Button
+        <Button style="@style/mainActivityButton"
             android:id="@+id/buttonSearch"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:backgroundTint="@color/pl_yp_white"
-            android:gravity="center"
             android:text="@string/title_search_button"
-            android:textAllCaps="false"
-            android:textColor="@color/pl_yp_black"
-            android:textSize="@dimen/menu_main_button_text_size"
-
-            app:cornerRadius="@dimen/menu_activity_Button_cornerRadius"
-            app:icon="@drawable/search"
-            app:iconGravity="textStart"
-            app:iconPadding="@dimen/menu_activity_iconPadding"
-            app:iconTint="@color/pl_yp_black" />
+            app:icon="@drawable/search" />
 
         <Button
             android:id="@+id/buttonMedia"
