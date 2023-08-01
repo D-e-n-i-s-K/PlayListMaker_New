@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="mainActivityButton">
 
         <item name="android:layout_width">match_parent</item>
@@ -16,9 +17,58 @@
         <item name="iconPadding">@dimen/menu_activity_iconPadding</item>
         <item name="iconTint">@color/pl_yp_black</item>
 
+    </style>
+
+    <style name="settingActivityButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/pl_yp_white</item>
+
+        <item name="android:paddingStart">@dimen/menu_setting_button_paddingStart</item>
+        <item name="android:paddingTop">@dimen/menu_setting_button_paddingTop</item>
+        <item name="android:paddingEnd">@dimen/menu_setting_button_paddingEnd</item>
+        <item name="android:bottom">@dimen/menu_setting_button_paddingBottom</item>
+
+        <item name="android:fontFamily">@font/ys</item>
+        <item name="android:letterSpacing">@integer/menu_setting_button_letterSpacing0</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/pl_yp_black</item>
+        <item name="android:textSize">@dimen/menu_setting_button_text_size</item>
+
+        <item name="iconGravity">end</item>
+        <item name="iconSize">@dimen/menu_setting_button_icon_size</item>
+        <item name="iconTint">@color/black</item>
 
     </style>
+
 </resources>
+
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        android:fontFamily="@font/ys"-->
+<!--        android:letterSpacing="@integer/menu_setting_button_letterSpacing0"-->
+<!--        android:paddingStart="@dimen/menu_setting_button_paddingStart"-->
+<!--        android:paddingTop="@dimen/menu_setting_button_paddingTop"-->
+<!--        android:paddingEnd="@dimen/menu_setting_button_paddingEnd"-->
+
+<!--    style="?android:attr/borderlessButtonStyle"-->
+
+<!--        android:paddingBottom="18dp"-->
+<!--    android:text="@string/setting_menu_share_app_text"-->
+<!--        android:textAlignment="textStart"-->
+<!--        android:textAllCaps="false"-->
+
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="@dimen/menu_setting_button_text_size"-->
+<!--    app:icon="@drawable/share_app"-->
+
+<!--        app:iconGravity="end"-->
+<!--        app:iconSize="@dimen/menu_setting_button_icon_size"-->
+<!--        app:iconTint="@color/pl_yp_gray"-->
+
+
 
 <!--    android:id="@+id/buttonSearch"-->
 <!--        android:layout_width="match_parent"-->
