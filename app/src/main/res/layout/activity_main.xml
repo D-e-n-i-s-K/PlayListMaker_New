@@ -17,54 +17,26 @@
             android:textColor="@color/pl_yp_white"
             android:textSize="@dimen/menu_title_text_size" />
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="24dp"
         android:orientation="vertical">
 
-
         <Button style="@style/mainActivityButton"
             android:id="@+id/buttonSearch"
             android:text="@string/title_search_button"
             app:icon="@drawable/search" />
 
-        <Button
+        <Button style="@style/mainActivityButton"
             android:id="@+id/buttonMedia"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_marginTop="16dp"
-            android:layout_weight="1"
-            android:backgroundTint="@color/pl_yp_white"
-            android:gravity="center"
             android:text="@string/title_media_library_button"
-            android:textAllCaps="false"
-            android:textColor="@color/pl_yp_black"
-            android:textSize="@dimen/menu_main_button_text_size"
-            app:cornerRadius="@dimen/menu_activity_Button_cornerRadius"
-            app:icon="@drawable/medialibrary"
-            app:iconGravity="textStart"
-            app:iconPadding="@dimen/menu_activity_iconPadding"
-            app:iconTint="@color/pl_yp_black" />
+            app:icon="@drawable/media_library"/>
 
-        <Button
+        <Button style="@style/mainActivityButton"
             android:id="@+id/buttonSettings"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_marginTop="16dp"
-            android:layout_weight="1"
-            android:backgroundTint="@color/white"
-            android:gravity="center"
             android:text="@string/title_settings_button"
-            android:textAllCaps="false"
-            android:textColor="@color/pl_yp_black"
-            android:textSize="@dimen/menu_main_button_text_size"
-            app:cornerRadius="@dimen/menu_activity_Button_cornerRadius"
-            app:icon="@drawable/settings"
-            app:iconGravity="textStart"
-            app:iconPadding="@dimen/menu_activity_iconPadding"
-            app:iconTint="@color/pl_yp_black" />
+            app:icon="@drawable/settings" />
 
     </LinearLayout>
 </LinearLayout>
