@@ -4,7 +4,7 @@
         style="@style/settingActivityLayout">
 
      <Button
-         android:id="@+id/back"
+         android:id="@+id/backToMainActivityButton"
          style="@style/settingActivityHeadButton"
          android:text="@string/title_settings_button"
          app:icon="@drawable/arrow_back" />
@@ -17,6 +17,7 @@
 
             <Button
 
+                android:id="@+id/shareAppButton"
                 android:text="@string/setting_menu_share_app_text"
                 app:icon="@drawable/share_app"
                 style="@style/settingActivityButton"
@@ -24,6 +25,7 @@
 
             <Button
 
+                android:id="@+id/supportMailButton"
                 android:text="@string/setting_menu_support_text"
                 app:icon="@drawable/support"
                 style="@style/settingActivityButton"
@@ -32,6 +34,7 @@
             </Button>
 
             <Button
+                android:id="@+id/usersAgreementButton"
                 android:text="@string/setting_menu_user_agree_text"
                 app:icon="@drawable/user_agree"
                  style="@style/settingActivityButton" >

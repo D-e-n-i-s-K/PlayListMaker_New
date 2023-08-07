@@ -2,7 +2,7 @@
 <resources>
 
     <style name="mainActivityLayout">
-        <item name="android:background">@color/pl_yp_blue</item>
+        <item name="android:background">@color/pl_yp_black</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:orientation">vertical</item>
