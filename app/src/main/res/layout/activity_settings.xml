@@ -6,8 +6,7 @@
      <Button
          android:id="@+id/backToMainActivityButton"
          style="@style/settingActivityHeadButton"
-         android:text="@string/title_settings_button"
-         app:icon="@drawable/arrow_back" />
+         android:text="@string/title_settings_button"/>
 
      <Switch
 
