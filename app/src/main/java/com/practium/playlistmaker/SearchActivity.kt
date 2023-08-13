@@ -67,8 +67,6 @@ class SearchActivity : AppCompatActivity() {
 
        // тут ВОПРОСК к РЕВЬЮЕРУ... при повороте экрана на эмуляторе значение текстового поля не срасывается, ПОЧЕМУ???
 
-      //  Toast.makeText(this, "отработал onSaveInstanceState записали ${searchEditText.text.toString()} " +
-        //         "по ключу $SEARCH_TEXT", Toast.LENGTH_SHORT).show()
     }
 
     override fun onRestoreInstanceState(savedInstanceState: Bundle) {
@@ -77,7 +75,6 @@ class SearchActivity : AppCompatActivity() {
         val searchEditText = findViewById<EditText>(R.id.searchEditText)
         searchEditText.setText(savedInstanceState.getString(SEARCH_TEXT,""))
 
-       // Toast.makeText(this, "отработал onRestoreInstanceState", Toast.LENGTH_SHORT).show()
     }
 
     }
