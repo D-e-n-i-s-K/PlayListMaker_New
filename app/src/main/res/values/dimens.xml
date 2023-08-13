@@ -15,4 +15,7 @@
     <dimen name="menu_activity_iconPadding">16dp</dimen>
     <dimen name="menu_activity_Button_cornerRadius">18dp</dimen>
 
+    <dimen name="search_editText_paddingTop">8.5dp</dimen>
+    <dimen name="search_editText_paddingBottom">8.5dp</dimen>
+
 </resources>

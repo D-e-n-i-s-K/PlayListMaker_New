@@ -12,4 +12,6 @@
     <string name="setting_menu_support_text" translatable="false">Написать в поддержку</string>
     <string name="setting_menu_user_agree_text" translatable="false">Пользовательское соглашение</string>
 
+    <string name="search_editText_hint_text" translatable="false">Поиск</string>
+
 </resources>

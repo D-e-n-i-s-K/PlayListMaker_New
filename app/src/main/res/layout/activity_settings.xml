@@ -5,7 +5,7 @@
 
      <Button
          android:id="@+id/backToMainActivityButton"
-         style="@style/settingActivityHeadButton"
+         style="@style/activityTitleButton"
          android:text="@string/title_settings_button"/>
 
      <Switch

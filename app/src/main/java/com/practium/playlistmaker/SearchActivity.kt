@@ -6,14 +6,16 @@ import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.view.View
-import android.widget.Button
-import android.widget.EditText
-import android.widget.ImageButton
-import android.widget.TextView
+import android.widget.*
 import androidx.core.text.set
 
 
 class SearchActivity : AppCompatActivity() {
+
+    companion object {
+        const val SEARCH_TEXT = "SEARCH_TEXT"
+    }
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,6 +24,7 @@ class SearchActivity : AppCompatActivity() {
         val toMainMenuButton = findViewById<TextView>(R.id.buttonBack)
         val searchEditText = findViewById<EditText>(R.id.searchEditText)
         val cancelButton = findViewById<ImageButton>(R.id.cancelButton)
+
 
         cancelButton.visibility = View.GONE
 
@@ -56,6 +59,26 @@ class SearchActivity : AppCompatActivity() {
         }
 
 
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+
+        val searchEditText = findViewById<EditText>(R.id.searchEditText)
+         outState.putString(SEARCH_TEXT, searchEditText.text.toString())
+
+       // тут ВОПРОСК к РЕВЬЮЕРУ... при повороте экрана на эмуляторе значение текстового поля не срасывается, ПОЧЕМУ???
+
+      //  Toast.makeText(this, "отработал onSaveInstanceState записали ${searchEditText.text.toString()} " +
+        //         "по ключу $SEARCH_TEXT", Toast.LENGTH_SHORT).show()
+    }
+
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+        super.onRestoreInstanceState(savedInstanceState)
+
+        val searchEditText = findViewById<EditText>(R.id.searchEditText)
+        searchEditText.setText(savedInstanceState.getString(SEARCH_TEXT,""))
+
+       // Toast.makeText(this, "отработал onRestoreInstanceState", Toast.LENGTH_SHORT).show()
+    }
 
     }
 

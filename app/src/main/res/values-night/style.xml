@@ -9,7 +9,6 @@
         <item name="android:padding">16dp</item>
     </style>
 
-
     <style name="mainActivityButton">
 
         <item name="android:layout_width">match_parent</item>
@@ -64,8 +63,7 @@
 
     </style>
 
-
-    <style name="settingActivityHeadButton" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
+    <style name="activityTitleButton" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
 
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -77,10 +75,12 @@
         <item name="android:textColor">@color/pl_yp_white</item>
         <item name="android:textSize">@dimen/menu_title_text_size</item>
 
+        <item name="icon">@drawable/arrow_back</item>
+
         <item name="android:backgroundTint">@color/pl_yp_black</item>
         <item name="iconGravity">textStart</item>
         <item name="iconPadding">15dp</item>
-        <item name="iconTint">@color/pl_yp_white</item>
+        <item name="iconTint">@color/white</item>
 
     </style>
 
@@ -102,6 +102,38 @@
 
     </style>
 
+    <style name="searchIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/yp_light_gray</item>
+        <item name="android:src">@drawable/search_icon</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:contentDescription"></item>
+        <item name="android:tint">@color/pl_yp_black</item>
+    </style>
 
+    <style name="searchEditText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:hint">@string/search_editText_hint_text</item>
+        <item name="android:paddingTop">@dimen/search_editText_paddingTop</item>
+        <item name="android:paddingBottom">@dimen/search_editText_paddingBottom</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textColorHint">@color/pl_yp_black</item>
+    </style>
+
+    <style name="cancelIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/yp_light_gray</item>
+        <item name="android:src">@drawable/cancel</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:contentDescription"></item>
+        <item name="android:tint">@color/pl_yp_black</item>
+
+    </style>
 
 </resources>
