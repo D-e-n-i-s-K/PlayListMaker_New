@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">Playlist Maker</string>
+    <string name="app_name" translatable="false">Playlist Maker</string>
+
+    <string name="title_Hello">Привет, Практикум</string>
+
+    <string name="title_search_button" translatable="false">Поиск</string>
+    <string name="title_media_library_button" translatable="false">Медиатека</string>
+    <string name="title_settings_button" translatable="false">Настройки</string>
+
+    <string name="setting_menu_switch_theme_text" translatable="false">Темная тема</string>
+    <string name="setting_menu_share_app_text" translatable="false">Поделиться приложением</string>
+    <string name="setting_menu_support_text" translatable="false">Написать в поддержку</string>
+    <string name="setting_menu_user_agree_text" translatable="false">Пользовательское соглашение</string>
+
+    <string name="search_editText_hint_text" translatable="false">Поиск</string>
+
 </resources>
